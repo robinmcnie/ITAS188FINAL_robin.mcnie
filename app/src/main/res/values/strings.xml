@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">itas188finalproject</string>
+    <string-array name="tones">
+        <item>friendly</item>
+        <item>formal</item>
+        <item>informal</item>
+        <item>serious</item>
+        <item>humorous</item>
+    </string-array>
+
+</resources>

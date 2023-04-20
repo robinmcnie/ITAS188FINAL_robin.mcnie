@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "536843964929",
+    "project_id": "itas188final",
+    "storage_bucket": "itas188final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:536843964929:android:1cdc134e3f25100da02600",
+        "android_client_info": {
+          "package_name": "edu.itas.itas188finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "536843964929-lj5qretiqustbi6jq32uqltbf8775p4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZK5pWDvsaCGnuCWx1kfnZ1p19tCfYhEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "536843964929-lj5qretiqustbi6jq32uqltbf8775p4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
