@@ -6,6 +6,9 @@
         <item>informal</item>
         <item>serious</item>
         <item>humorous</item>
+        <item>angry</item>
+        <item>spiteful</item>
+        <item>minecraft-youtuber-esque</item>
     </string-array>
 
 </resources>

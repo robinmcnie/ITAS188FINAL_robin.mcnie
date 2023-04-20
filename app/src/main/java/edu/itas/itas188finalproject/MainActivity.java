@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
                     rephrasedTextView.setText(rephrasedText);
 
                     // Save the user input and rephrased text to Firebase
-                    saveDataToFirebase(userInput, rephrasedText);
+                    saveDataToFirebase(userInput, rephrasedText, selectedTone);
                 } else {
                     Toast.makeText(MainActivity.this, "Error: Unable to generate rephrased text", Toast.LENGTH_SHORT).show();
                 }
@@ -116,10 +116,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    private void saveDataToFirebase(String userInput, String rephrasedText) {
+    private void saveDataToFirebase(String userInput, String rephrasedText, String selectedTone) {
         DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("history");
         String key = databaseReference.push().getKey();
-        RewrittenText rewrittenText = new RewrittenText(userInput, rephrasedText);
+        RewrittenText rewrittenText = new RewrittenText(userInput, rephrasedText, selectedTone);
         databaseReference.child(key).setValue(rewrittenText)
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override

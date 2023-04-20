@@ -32,7 +32,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.HistoryV
         RewrittenText rewrittenText = historyList.get(position);
         holder.itemTitle.setText("#" + (position + 1) + " Rephrase");
         holder.originalText.setText("Your Input: " + rewrittenText.getOriginalText());
-        holder.rephrasedText.setText(rewrittenText.getRephrasedText());
+        holder.rephrasedText.setText(rewrittenText.getTone() + ": " + rewrittenText.getRephrasedText());
     }
 
     @Override
