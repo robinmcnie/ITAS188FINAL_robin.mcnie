@@ -6,7 +6,7 @@ import retrofit2.http.Headers;
 import retrofit2.http.POST;
 
 public interface OpenAIApiService {
-    @Headers("Authorization: Bearer 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")
+    @Headers("Authorization: Bearer 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")
     @POST("https://api.openai.com/v1/engines/text-davinci-002/completions")
     Call<OpenAIResponse> getRewrittenText(@Body OpenAIPrompt prompt);
 }
